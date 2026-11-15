@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for rvg-ijf3zw on 2026-11-15T17:53:49Z
+# fly.toml app configuration file generated for rvg-yhrkcq on 2026-11-15T20:18:07Z
 #
 # See https://docs.fly.io/reference/configuration for information about how to use this file.
 #
 
-app = 'rvg-ijf3zw'
+app = 'rvg-yhrkcq'
 primary_region = 'iad'
 
 [build]
