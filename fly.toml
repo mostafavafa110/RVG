@@ -1,5 +1,10 @@
+# fly.toml app configuration file generated for name on 2026-11-15T19:55:41Z
+#
+# See https://docs.fly.io/reference/configuration for information about how to use this file.
+#
+
 app = "name"
-primary_region = "fra"
+primary_region = 'iad'
 
 [env]
 DATA_DIR = "/data"
@@ -9,7 +14,7 @@ PORT = "8080"
 auto_start_machines = true
 auto_stop_machines = false
 force_https = true
-internal_port = 8_080
+internal_port = 8080
 min_machines_running = 1
 
 [[mounts]]
@@ -17,5 +22,5 @@ destination = "/data"
 source = "data"
 
 [[vm]]
-memory = "512mb"
-size = "shared-cpu-1x"
+  memory = '512mb'
+  size = 'shared-cpu-1x'
